@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.rmj.Mail.App;
+package org.rmj.mail.App;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -53,6 +53,18 @@ public class FSECStatus {
 //         System.out.println("Args " + Integer.toString(n) + " :" + args[n]);
 //      }
 //      System.exit(1);
+
+        String path;
+        if(System.getProperty("os.name").toLowerCase().contains("win")){
+            path = "D:/GGC_Java_Systems";
+            System.setProperty("sys.default.path.temp", path + "/temp");
+        }
+        else{
+            path = "/srv/GGC_Java_Systems";
+            System.setProperty("sys.default.path.temp", path + "/temp");
+        }
+        System.setProperty("sys.default.path.config", path);
+
       
       if(args.length < 3){
          System.out.println("Invalid number of arguments...");

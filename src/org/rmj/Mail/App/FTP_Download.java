@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.rmj.Mail.App;
+package org.rmj.mail.App;
 
 import java.io.File;
 import org.rmj.appdriver.GCrypt;
@@ -28,7 +28,9 @@ public class FTP_Download {
    private static SFTP_DU sftp;
    
    public static void main(String[] args) {
-      
+
+       
+       
       // this utility should always have a 3 parameter 
       // source, client_dir, file
       if(args.length != 3){

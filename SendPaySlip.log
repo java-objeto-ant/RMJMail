@@ -1,0 +1,796 @@
+Sep 01, 2015 4:42:27 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+com.sun.mail.smtp.SMTPSendFailedException: 421 Resources temporarily unavailable - Please try again later
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2202)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:150)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:64)
+
+Sep 01, 2015 4:42:27 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+javax.mail.MessagingException: Can't send command to SMTP host;
+  nested exception is:
+	java.net.SocketException: Connection closed by remote host
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2259)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2246)
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2176)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:150)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:64)
+Caused by: java.net.SocketException: Connection closed by remote host
+	at sun.security.ssl.SSLSocketImpl.checkWrite(SSLSocketImpl.java:1490)
+	at sun.security.ssl.AppOutputStream.write(AppOutputStream.java:70)
+	at com.sun.mail.util.TraceOutputStream.write(TraceOutputStream.java:128)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2257)
+	... 6 more
+
+Sep 01, 2015 4:48:04 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+com.sun.mail.smtp.SMTPSendFailedException: 421 Resources temporarily unavailable - Please try again later
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2202)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:150)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:64)
+
+Sep 01, 2015 4:48:04 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+javax.mail.MessagingException: Can't send command to SMTP host;
+  nested exception is:
+	java.net.SocketException: Connection closed by remote host
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2259)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2246)
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2176)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:150)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:64)
+Caused by: java.net.SocketException: Connection closed by remote host
+	at sun.security.ssl.SSLSocketImpl.checkWrite(SSLSocketImpl.java:1490)
+	at sun.security.ssl.AppOutputStream.write(AppOutputStream.java:70)
+	at com.sun.mail.util.TraceOutputStream.write(TraceOutputStream.java:128)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2257)
+	... 6 more
+
+Sep 01, 2015 4:52:42 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+com.sun.mail.smtp.SMTPSendFailedException: 421 Resources temporarily unavailable - Please try again later
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2202)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:150)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:64)
+
+Sep 01, 2015 4:52:42 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+javax.mail.MessagingException: Can't send command to SMTP host;
+  nested exception is:
+	java.net.SocketException: Connection closed by remote host
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2259)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2246)
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2176)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:150)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:64)
+Caused by: java.net.SocketException: Connection closed by remote host
+	at sun.security.ssl.SSLSocketImpl.checkWrite(SSLSocketImpl.java:1490)
+	at sun.security.ssl.AppOutputStream.write(AppOutputStream.java:70)
+	at com.sun.mail.util.TraceOutputStream.write(TraceOutputStream.java:128)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2257)
+	... 6 more
+
+Sep 01, 2015 4:54:24 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+com.sun.mail.smtp.SMTPSendFailedException: 421 Resources temporarily unavailable - Please try again later
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2202)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:150)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:64)
+
+Sep 01, 2015 4:54:24 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+javax.mail.MessagingException: Can't send command to SMTP host;
+  nested exception is:
+	java.net.SocketException: Connection closed by remote host
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2259)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2246)
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2176)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:150)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:64)
+Caused by: java.net.SocketException: Connection closed by remote host
+	at sun.security.ssl.SSLSocketImpl.checkWrite(SSLSocketImpl.java:1490)
+	at sun.security.ssl.AppOutputStream.write(AppOutputStream.java:70)
+	at com.sun.mail.util.TraceOutputStream.write(TraceOutputStream.java:128)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2257)
+	... 6 more
+
+Sep 01, 2015 4:56:03 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+com.sun.mail.smtp.SMTPSendFailedException: 421 Resources temporarily unavailable - Please try again later
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2202)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:150)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:64)
+
+Sep 01, 2015 4:56:03 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+javax.mail.MessagingException: Can't send command to SMTP host;
+  nested exception is:
+	java.net.SocketException: Connection closed by remote host
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2259)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2246)
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2176)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:150)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:64)
+Caused by: java.net.SocketException: Connection closed by remote host
+	at sun.security.ssl.SSLSocketImpl.checkWrite(SSLSocketImpl.java:1490)
+	at sun.security.ssl.AppOutputStream.write(AppOutputStream.java:70)
+	at com.sun.mail.util.TraceOutputStream.write(TraceOutputStream.java:128)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2257)
+	... 6 more
+
+Sep 21, 2015 1:04:41 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+com.sun.mail.smtp.SMTPSendFailedException: 421 Resources temporarily unavailable - Please try again later
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2202)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:212)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+
+Sep 21, 2015 1:04:41 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+javax.mail.MessagingException: Can't send command to SMTP host;
+  nested exception is:
+	java.net.SocketException: Connection closed by remote host
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2259)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2246)
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2176)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:212)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+Caused by: java.net.SocketException: Connection closed by remote host
+	at sun.security.ssl.SSLSocketImpl.checkWrite(SSLSocketImpl.java:1490)
+	at sun.security.ssl.AppOutputStream.write(AppOutputStream.java:70)
+	at com.sun.mail.util.TraceOutputStream.write(TraceOutputStream.java:128)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2257)
+	... 6 more
+
+Sep 21, 2015 1:06:09 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+com.sun.mail.smtp.SMTPSendFailedException: 421 Resources temporarily unavailable - Please try again later
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2202)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:212)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+
+Sep 21, 2015 1:06:09 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+javax.mail.MessagingException: Can't send command to SMTP host;
+  nested exception is:
+	java.net.SocketException: Connection closed by remote host
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2259)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2246)
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2176)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:212)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+Caused by: java.net.SocketException: Connection closed by remote host
+	at sun.security.ssl.SSLSocketImpl.checkWrite(SSLSocketImpl.java:1490)
+	at sun.security.ssl.AppOutputStream.write(AppOutputStream.java:70)
+	at com.sun.mail.util.TraceOutputStream.write(TraceOutputStream.java:128)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2257)
+	... 6 more
+
+Sep 21, 2015 1:09:13 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+com.sun.mail.smtp.SMTPSendFailedException: 421 Resources temporarily unavailable - Please try again later
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2202)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:212)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+
+Sep 21, 2015 1:09:13 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+javax.mail.MessagingException: Can't send command to SMTP host;
+  nested exception is:
+	java.net.SocketException: Connection closed by remote host
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2259)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2246)
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2176)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:212)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+Caused by: java.net.SocketException: Connection closed by remote host
+	at sun.security.ssl.SSLSocketImpl.checkWrite(SSLSocketImpl.java:1490)
+	at sun.security.ssl.AppOutputStream.write(AppOutputStream.java:70)
+	at com.sun.mail.util.TraceOutputStream.write(TraceOutputStream.java:128)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2257)
+	... 6 more
+
+Sep 21, 2015 2:03:15 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+com.sun.mail.smtp.SMTPSendFailedException: 421 Resources temporarily unavailable - Please try again later
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2202)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:212)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+
+Sep 21, 2015 2:03:15 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+javax.mail.MessagingException: Can't send command to SMTP host;
+  nested exception is:
+	java.net.SocketException: Connection closed by remote host
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2259)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2246)
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2176)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:212)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+Caused by: java.net.SocketException: Connection closed by remote host
+	at sun.security.ssl.SSLSocketImpl.checkWrite(SSLSocketImpl.java:1490)
+	at sun.security.ssl.AppOutputStream.write(AppOutputStream.java:70)
+	at com.sun.mail.util.TraceOutputStream.write(TraceOutputStream.java:128)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2257)
+	... 6 more
+
+Oct 05, 2015 9:35:45 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+com.sun.mail.smtp.SMTPSendFailedException: 421 Resources temporarily unavailable - Please try again later
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2202)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:214)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+
+Oct 05, 2015 9:35:45 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+javax.mail.MessagingException: Can't send command to SMTP host;
+  nested exception is:
+	java.net.SocketException: Connection closed by remote host
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2259)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2246)
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2176)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:214)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+Caused by: java.net.SocketException: Connection closed by remote host
+	at sun.security.ssl.SSLSocketImpl.checkWrite(SSLSocketImpl.java:1490)
+	at sun.security.ssl.AppOutputStream.write(AppOutputStream.java:70)
+	at com.sun.mail.util.TraceOutputStream.write(TraceOutputStream.java:128)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2257)
+	... 6 more
+
+Oct 05, 2015 9:37:23 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+com.sun.mail.smtp.SMTPSendFailedException: 421 Resources temporarily unavailable - Please try again later
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2202)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:214)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+
+Oct 05, 2015 9:37:23 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+javax.mail.MessagingException: Can't send command to SMTP host;
+  nested exception is:
+	java.net.SocketException: Connection closed by remote host
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2259)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2246)
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2176)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:214)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+Caused by: java.net.SocketException: Connection closed by remote host
+	at sun.security.ssl.SSLSocketImpl.checkWrite(SSLSocketImpl.java:1490)
+	at sun.security.ssl.AppOutputStream.write(AppOutputStream.java:70)
+	at com.sun.mail.util.TraceOutputStream.write(TraceOutputStream.java:128)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2257)
+	... 6 more
+
+Oct 05, 2015 9:39:41 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+com.sun.mail.smtp.SMTPSendFailedException: 421 Resources temporarily unavailable - Please try again later
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2202)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:214)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+
+Oct 05, 2015 9:39:41 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+javax.mail.MessagingException: Can't send command to SMTP host;
+  nested exception is:
+	java.net.SocketException: Connection closed by remote host
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2259)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2246)
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2176)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:214)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+Caused by: java.net.SocketException: Connection closed by remote host
+	at sun.security.ssl.SSLSocketImpl.checkWrite(SSLSocketImpl.java:1490)
+	at sun.security.ssl.AppOutputStream.write(AppOutputStream.java:70)
+	at com.sun.mail.util.TraceOutputStream.write(TraceOutputStream.java:128)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2257)
+	... 6 more
+
+Oct 05, 2015 9:41:28 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+com.sun.mail.smtp.SMTPSendFailedException: 421 Resources temporarily unavailable - Please try again later
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2202)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:214)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+
+Oct 05, 2015 9:41:28 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+javax.mail.MessagingException: Can't send command to SMTP host;
+  nested exception is:
+	java.net.SocketException: Connection closed by remote host
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2259)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2246)
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2176)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:214)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+Caused by: java.net.SocketException: Connection closed by remote host
+	at sun.security.ssl.SSLSocketImpl.checkWrite(SSLSocketImpl.java:1490)
+	at sun.security.ssl.AppOutputStream.write(AppOutputStream.java:70)
+	at com.sun.mail.util.TraceOutputStream.write(TraceOutputStream.java:128)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2257)
+	... 6 more
+
+Oct 05, 2015 9:43:36 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+com.sun.mail.smtp.SMTPSendFailedException: 421 Resources temporarily unavailable - Please try again later
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2202)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:214)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+
+Oct 05, 2015 9:43:36 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+javax.mail.MessagingException: Can't send command to SMTP host;
+  nested exception is:
+	java.net.SocketException: Connection closed by remote host
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2259)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2246)
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2176)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:214)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+Caused by: java.net.SocketException: Connection closed by remote host
+	at sun.security.ssl.SSLSocketImpl.checkWrite(SSLSocketImpl.java:1490)
+	at sun.security.ssl.AppOutputStream.write(AppOutputStream.java:70)
+	at com.sun.mail.util.TraceOutputStream.write(TraceOutputStream.java:128)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2257)
+	... 6 more
+
+Oct 05, 2015 9:45:06 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+com.sun.mail.smtp.SMTPSendFailedException: 421 Resources temporarily unavailable - Please try again later
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2202)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:214)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+
+Oct 05, 2015 9:45:06 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+javax.mail.MessagingException: Can't send command to SMTP host;
+  nested exception is:
+	java.net.SocketException: Connection closed by remote host
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2259)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2246)
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2176)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:214)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+Caused by: java.net.SocketException: Connection closed by remote host
+	at sun.security.ssl.SSLSocketImpl.checkWrite(SSLSocketImpl.java:1490)
+	at sun.security.ssl.AppOutputStream.write(AppOutputStream.java:70)
+	at com.sun.mail.util.TraceOutputStream.write(TraceOutputStream.java:128)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2257)
+	... 6 more
+
+Oct 22, 2015 10:53:50 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+com.sun.mail.smtp.SMTPSendFailedException: 421 Resources temporarily unavailable - Please try again later
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2202)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:214)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+
+Oct 22, 2015 10:53:50 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+javax.mail.MessagingException: Can't send command to SMTP host;
+  nested exception is:
+	java.net.SocketException: Connection closed by remote host
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2259)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2246)
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2176)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:214)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+Caused by: java.net.SocketException: Connection closed by remote host
+	at sun.security.ssl.SSLSocketImpl.checkWrite(SSLSocketImpl.java:1490)
+	at sun.security.ssl.AppOutputStream.write(AppOutputStream.java:70)
+	at com.sun.mail.util.TraceOutputStream.write(TraceOutputStream.java:128)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2257)
+	... 6 more
+
+Oct 22, 2015 10:57:51 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+com.sun.mail.smtp.SMTPSendFailedException: 421 Resources temporarily unavailable - Please try again later
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2202)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:214)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+
+Oct 22, 2015 10:57:51 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+javax.mail.MessagingException: Can't send command to SMTP host;
+  nested exception is:
+	java.net.SocketException: Connection closed by remote host
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2259)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2246)
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2176)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:214)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+Caused by: java.net.SocketException: Connection closed by remote host
+	at sun.security.ssl.SSLSocketImpl.checkWrite(SSLSocketImpl.java:1490)
+	at sun.security.ssl.AppOutputStream.write(AppOutputStream.java:70)
+	at com.sun.mail.util.TraceOutputStream.write(TraceOutputStream.java:128)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2257)
+	... 6 more
+
+Oct 22, 2015 11:04:20 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+javax.mail.MessagingException: Can't send command to SMTP host;
+  nested exception is:
+	java.net.SocketException: Connection closed by remote host
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2259)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2246)
+	at com.sun.mail.smtp.SMTPTransport.issueCommand(SMTPTransport.java:2162)
+	at com.sun.mail.smtp.SMTPTransport.rcptTo(SMTPTransport.java:1840)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1195)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:214)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+Caused by: java.net.SocketException: Connection closed by remote host
+	at sun.security.ssl.SSLSocketImpl.checkWrite(SSLSocketImpl.java:1490)
+	at sun.security.ssl.AppOutputStream.write(AppOutputStream.java:70)
+	at com.sun.mail.util.TraceOutputStream.write(TraceOutputStream.java:128)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2257)
+	... 6 more
+
+Oct 23, 2015 9:01:52 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+com.sun.mail.smtp.SMTPSendFailedException: 421 Resources temporarily unavailable - Please try again later
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2202)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:214)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+
+Oct 23, 2015 9:01:52 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+javax.mail.MessagingException: Can't send command to SMTP host;
+  nested exception is:
+	java.net.SocketException: Connection closed by remote host
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2259)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2246)
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2176)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:214)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+Caused by: java.net.SocketException: Connection closed by remote host
+	at sun.security.ssl.SSLSocketImpl.checkWrite(SSLSocketImpl.java:1490)
+	at sun.security.ssl.AppOutputStream.write(AppOutputStream.java:70)
+	at com.sun.mail.util.TraceOutputStream.write(TraceOutputStream.java:128)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2257)
+	... 6 more
+
+Oct 23, 2015 9:03:56 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+com.sun.mail.smtp.SMTPSendFailedException: 421 Resources temporarily unavailable - Please try again later
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2202)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:214)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+
+Oct 23, 2015 9:03:56 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+javax.mail.MessagingException: Can't send command to SMTP host;
+  nested exception is:
+	java.net.SocketException: Connection closed by remote host
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2259)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2246)
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2176)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:214)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+Caused by: java.net.SocketException: Connection closed by remote host
+	at sun.security.ssl.SSLSocketImpl.checkWrite(SSLSocketImpl.java:1490)
+	at sun.security.ssl.AppOutputStream.write(AppOutputStream.java:70)
+	at com.sun.mail.util.TraceOutputStream.write(TraceOutputStream.java:128)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2257)
+	... 6 more
+
+Oct 23, 2015 9:06:00 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+com.sun.mail.smtp.SMTPSendFailedException: 421 Resources temporarily unavailable - Please try again later
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2202)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:214)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+
+Oct 23, 2015 9:06:00 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+javax.mail.MessagingException: Can't send command to SMTP host;
+  nested exception is:
+	java.net.SocketException: Connection closed by remote host
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2259)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2246)
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2176)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:214)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+Caused by: java.net.SocketException: Connection closed by remote host
+	at sun.security.ssl.SSLSocketImpl.checkWrite(SSLSocketImpl.java:1490)
+	at sun.security.ssl.AppOutputStream.write(AppOutputStream.java:70)
+	at com.sun.mail.util.TraceOutputStream.write(TraceOutputStream.java:128)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2257)
+	... 6 more
+
+Nov 03, 2015 11:05:26 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+com.sun.mail.smtp.SMTPSendFailedException: 421 Resources temporarily unavailable - Please try again later
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2202)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:214)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+
+Nov 03, 2015 11:05:26 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+javax.mail.MessagingException: Can't send command to SMTP host;
+  nested exception is:
+	java.net.SocketException: Connection closed by remote host
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2259)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2246)
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2176)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:214)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+Caused by: java.net.SocketException: Connection closed by remote host
+	at sun.security.ssl.SSLSocketImpl.checkWrite(SSLSocketImpl.java:1490)
+	at sun.security.ssl.AppOutputStream.write(AppOutputStream.java:70)
+	at com.sun.mail.util.TraceOutputStream.write(TraceOutputStream.java:128)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2257)
+	... 6 more
+
+Nov 03, 2015 11:09:18 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+com.sun.mail.smtp.SMTPSendFailedException: 421 Resources temporarily unavailable - Please try again later
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2202)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:214)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+
+Nov 03, 2015 11:09:18 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+javax.mail.MessagingException: Can't send command to SMTP host;
+  nested exception is:
+	java.net.SocketException: Connection closed by remote host
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2259)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2246)
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2176)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:214)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+Caused by: java.net.SocketException: Connection closed by remote host
+	at sun.security.ssl.SSLSocketImpl.checkWrite(SSLSocketImpl.java:1490)
+	at sun.security.ssl.AppOutputStream.write(AppOutputStream.java:70)
+	at com.sun.mail.util.TraceOutputStream.write(TraceOutputStream.java:128)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2257)
+	... 6 more
+
+Nov 03, 2015 11:14:52 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+com.sun.mail.smtp.SMTPSendFailedException: 421 Resources temporarily unavailable - Please try again later
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2202)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:214)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+
+Nov 03, 2015 11:14:52 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+javax.mail.MessagingException: Can't send command to SMTP host;
+  nested exception is:
+	java.net.SocketException: Connection closed by remote host
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2259)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2246)
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2176)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:214)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+Caused by: java.net.SocketException: Connection closed by remote host
+	at sun.security.ssl.SSLSocketImpl.checkWrite(SSLSocketImpl.java:1490)
+	at sun.security.ssl.AppOutputStream.write(AppOutputStream.java:70)
+	at com.sun.mail.util.TraceOutputStream.write(TraceOutputStream.java:128)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2257)
+	... 6 more
+
+Nov 03, 2015 11:24:08 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+com.sun.mail.smtp.SMTPSendFailedException: 421 Resources temporarily unavailable - Please try again later
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2202)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:214)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+
+Nov 03, 2015 11:24:08 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+javax.mail.MessagingException: Can't send command to SMTP host;
+  nested exception is:
+	java.net.SocketException: Connection closed by remote host
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2259)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2246)
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2176)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:214)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+Caused by: java.net.SocketException: Connection closed by remote host
+	at sun.security.ssl.SSLSocketImpl.checkWrite(SSLSocketImpl.java:1490)
+	at sun.security.ssl.AppOutputStream.write(AppOutputStream.java:70)
+	at com.sun.mail.util.TraceOutputStream.write(TraceOutputStream.java:128)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2257)
+	... 6 more
+
+Nov 03, 2015 11:28:10 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+com.sun.mail.smtp.SMTPSendFailedException: 421 Resources temporarily unavailable - Please try again later
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2202)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:214)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+
+Nov 03, 2015 11:28:10 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: main: MessagingException error detected.
+javax.mail.MessagingException: Can't send command to SMTP host;
+  nested exception is:
+	java.net.SocketException: Connection closed by remote host
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2259)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2246)
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2176)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+	at org.rmj.Mail.Lib.SendMail.sendMessage(SendMail.java:214)
+	at org.rmj.Mail.App.SendPayslip.main(SendPayslip.java:59)
+Caused by: java.net.SocketException: Connection closed by remote host
+	at sun.security.ssl.SSLSocketImpl.checkWrite(SSLSocketImpl.java:1490)
+	at sun.security.ssl.AppOutputStream.write(AppOutputStream.java:70)
+	at com.sun.mail.util.TraceOutputStream.write(TraceOutputStream.java:128)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:2257)
+	... 6 more
+

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.rmj.Mail.App;
+package org.rmj.mail.App;
 
 import java.io.File;
 import java.io.IOException;
@@ -27,12 +27,23 @@ public class RoboMail {
    private static final String jar_path = new File(RoboMail.class.getProtectionDomain().getCodeSource().getLocation().getPath()).getParentFile().getPath().replace("%20", " "); 
    private static GRiderX instance = null;
    private static SendMail pomail;
-   private static final LogWrapper logwrapr = new LogWrapper("RMJMail.RoboMail", jar_path + "/temp/RoboMail.log");
+   private static final LogWrapper logwrapr = new LogWrapper("RMJMail.RoboMail", "temp/RoboMail.log");
    private static String host_dir = null;
    private static SFTP_DU sftp;
    
    public static void main(String[] args) {
-      String sender;
+        String path;
+        if(System.getProperty("os.name").toLowerCase().contains("win")){
+            path = "D:/GGC_Java_Systems";
+            System.setProperty("sys.default.path.temp", path + "/temp");
+        }
+        else{
+            path = "/srv/GGC_Java_Systems";
+            System.setProperty("sys.default.path.temp", path + "/temp");
+        }
+        System.setProperty("sys.default.path.config", path );
+
+        String sender;
       
       instance = new GRiderX("gRider");
       instance.setOnline(true);
@@ -52,6 +63,7 @@ public class RoboMail {
       
       //load configuration
       loadconfig(sender);
+      //System.exit(0);
       
       //load the configuration
       //pomail = new SendMail("D:/GGC_Java_Systems", sender);
@@ -137,7 +149,7 @@ public class RoboMail {
         ResultSet rs = null;
         try {
             String lsSQL = "SELECT" +
-         								 "  sTransNox" + 
+                                "  sTransNox" + 
                                   ", dTransact" +
                                   ", sMailFrom" +
                                   ", sMailToxx" +
@@ -167,9 +179,18 @@ public class RoboMail {
    }       
     
    private static void loadconfig(String prop){
-      GProperty loProp = new GProperty(jar_path + "/config/" + prop);
+      GProperty loProp = new GProperty(prop);
         
       sftp = new SFTP_DU();
       host_dir = loProp.getConfig("mail.sftp.fldr");
+      System.out.println(instance.Decrypt(loProp.getConfig("mail.user.auth")));
+      //System.out.println(loProp.getConfig("mail.user.id"));
+      //System.out.println(instance.Encrypt("gu9nz0n@1946"));
+      
+      
+      loProp.setConfig("mail.user.auth", instance.Encrypt("gu9nz0n@@@1946"));
+      loProp.save(System.getProperty("sys.default.path.config") + "/config/" + prop);
+      
+//      loProp.save("D:/GGC_Java_Systems/AutoReader-Win7.properties");
    }    
 }

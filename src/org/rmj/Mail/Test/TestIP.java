@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.rmj.Mail.Test;
+package org.rmj.mail.Test;
 
 import java.net.*;
 import java.util.*;

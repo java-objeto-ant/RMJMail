@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.rmj.Mail.Test;
+package org.rmj.mail.Test;
 
 import java.io.File;
 import java.io.IOException;
@@ -11,7 +11,7 @@ import java.io.InputStream;
 import java.net.URISyntaxException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import org.rmj.Mail.App.FTP_Download;
+import org.rmj.mail.App.FTP_Download;
 
 /**
  *

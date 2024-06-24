@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.rmj.Mail.App;
+package org.rmj.mail.App;
 
 import java.io.File;
 import org.rmj.appdriver.GCrypt;
@@ -32,14 +32,24 @@ import org.rmj.lib.net.SFTP_DU;
 public class FTP_Upload {
    //kalyptus - 2015.11.04 03:14pm
    //get the path of this java file once it was executed...
-   private static final String jar_path = new File(FTP_Upload.class.getProtectionDomain().getCodeSource().getLocation().getPath()).getParentFile().getPath().replace("%20", " "); 
    private static final String SIGNATURE = "08220326";
    private static String GUANZON_SITE = null; 
-   private static final LogWrapper logwrapr = new LogWrapper("RMJMail.FTP_Upload", jar_path + "/temp/FTP_Upload.log");
+   private static LogWrapper logwrapr;
    private static String host_dir = null;
    private static SFTP_DU sftp;
 
-   public static void main(String[] args) {
+    public static void main(String[] args) {       
+        String path;
+        if(System.getProperty("os.name").toLowerCase().contains("win")){
+            path = "D:/GGC_Java_Systems";
+        }
+        else{
+            path = "/srv/GGC_Java_Systems";
+        }
+        System.setProperty("sys.default.path.config", path);
+        
+        logwrapr = new LogWrapper("RMJMail.FTP_Upload", System.getProperty("sys.default.path.config") + "/temp/FTP_Upload.log");
+       
       // this utility should always have a 3 parameter 
       // source, client_dir, file
       System.out.println(args.length);
@@ -61,22 +71,22 @@ public class FTP_Upload {
       System.out.println("Creating destination...");
       sftp.mkdir(srvr);
             
-      try {
-         System.out.println("Uploading file - " + file);
-         sftp.Upload(clnt, srvr, file);
-         logwrapr.info("File uploaded successfully - " + file);
-         System.out.println("File uploaded successfully - " + file);
-         System.exit(0);
-      } catch (Exception ex) {
-         System.out.println(ex);
-         logwrapr.severe("Exception error detected.", ex);
-         System.exit(1);
-      }
-   }  
+    try {
+        System.out.println("Uploading file - " + file);
+        sftp.Upload(clnt, srvr, file);
+        logwrapr.info("File uploaded successfully - " + file);
+        System.out.println("File uploaded successfully - " + file);
+        System.exit(0);
+    } catch (Exception ex) {
+        logwrapr.severe("Exception error detected.", ex);
+        ex.printStackTrace();
+        System.exit(1);
+    }
+}  
    
    private static void loadconfig(){
       GCrypt loEnc = new GCrypt(SIGNATURE);
-      GProperty loProp = new GProperty(jar_path + "/config/AutoReader");
+      GProperty loProp = new GProperty("/config/AutoReader");
         
       sftp = new SFTP_DU();
 
@@ -99,5 +109,9 @@ public class FTP_Upload {
       }
       
       host_dir = loProp.getConfig("mail.sftp.fldr");
+      
+      System.err.println(loEnc.decrypt(loProp.getConfig("mail.sftp.user")));
+      System.err.println(loEnc.decrypt(loProp.getConfig("mail.sftp.pass")));
+      
    }            
 }

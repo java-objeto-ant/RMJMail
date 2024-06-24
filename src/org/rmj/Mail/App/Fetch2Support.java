@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.rmj.Mail.App;
+package org.rmj.mail.App;
 
 import java.io.File;
 import java.io.IOException;
@@ -52,7 +52,18 @@ public class Fetch2Support {
    private static GProperty loProp = null;
       
    public static void main(String[] args) {
-      String sender;
+        String path;
+        if(System.getProperty("os.name").toLowerCase().contains("win")){
+            path = "D:/GGC_Java_Systems";
+            System.setProperty("sys.default.path.temp", path + "/temp");
+        }
+        else{
+            path = "/srv/GGC_Java_Systems";
+            System.setProperty("sys.default.path.temp", path + "/temp");
+        }
+        System.setProperty("sys.default.path.config", path);
+
+       String sender;
       
       if(args.length == 0)
          sender = "AutoReader-Win7";
@@ -244,8 +255,6 @@ public class Fetch2Support {
          logwrapr.severe("main: NullPointerException error detected.", ex);
       }  catch (IOException ex) {
          logwrapr.severe("main: IOException error detected.", ex);
-      } catch (InvalidFormatException ex) {
-         logwrapr.severe("main: InvalidFormatException error detected.", ex);
       } catch (EncryptedDocumentException ex) {
          logwrapr.severe("main: EncryptedDocumentException error detected.", ex);
       }  catch (Exception ex) {
